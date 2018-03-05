@@ -1,0 +1,20 @@
+.sort {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+@media (min-width: 640px) {
+	.sort {
+		width: initial;
+	}
+}
+
+.sort__input {
+	flex: 2;
+	width: 50%;
+	margin-left: 10px;
+}
+

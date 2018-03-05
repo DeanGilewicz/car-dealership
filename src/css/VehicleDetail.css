@@ -1,0 +1,63 @@
+.all__cars__trigger {
+	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 8px 12px;
+	display: inline-block;
+	background-color: var(--green-color);
+	color: var(--white-color);
+	cursor: pointer;
+}
+
+.all__cars__trigger:visited {
+	color: var(--white-color);
+}
+
+.vehicle__detail {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+@media (min-width: 480px) {
+	.vehicle__detail {
+		justify-content: space-between;
+	}
+}
+
+.vehicle__image {
+	width: 100%;
+    max-width: 600px;
+}
+
+@media (min-width: 480px) {
+	.vehicle__image {
+		flex: 0 0 50%;
+		width: 50%;
+	}
+}
+
+.vehicle__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 480px) {
+	.vehicle__info {
+		flex: 1 1 40%;
+		align-items: left;
+		padding-left: 10px;
+	}
+}
+
+.vehicle__year,
+.vehicle__title,
+.vehicle__mileage {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+

@@ -1,0 +1,23 @@
+:root {
+	--black-color: #000000;
+	--grey-color: #DEDEDE;
+	--grey-light-color: #EEEEEE;
+	--green-color: #006400;
+	--white-color: #FFFFFF;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+a,
+a:visited {
+	color: var(--black-color);
+}
+
+input,
+select {
+	border: 2px solid var(--green-color);
+}

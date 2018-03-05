@@ -1,0 +1,21 @@
+.App {
+	padding: 20px;
+	text-align: center;
+}
+
+.App__header {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-bottom: 2px solid var(--grey-light-color);
+	color: var(--white-color);
+}
+
+.App__header a {
+	text-decoration: none;
+	color: var(--black-color);
+}
+
+
+
+
